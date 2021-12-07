@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Elspeth\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj": {}
+    "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Elspeth\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj": {
+    "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Elspeth\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
         "projectName": "TimeFlo_Team_Windows_B",
-        "projectPath": "C:\\Users\\Elspeth\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
-        "packagesPath": "C:\\Users\\Elspeth\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Elspeth\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\obj\\",
+        "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elspeth\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
