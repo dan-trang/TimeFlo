@@ -46,11 +46,7 @@
             // 
             // button1
             // 
-<<<<<<< HEAD
             this.button1.Location = new System.Drawing.Point(57, 142);
-=======
-            this.button1.Location = new System.Drawing.Point(46, 139);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(71, 26);
@@ -61,11 +57,7 @@
             // 
             // button2
             // 
-<<<<<<< HEAD
             this.button2.Location = new System.Drawing.Point(132, 142);
-=======
-            this.button2.Location = new System.Drawing.Point(121, 139);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(72, 26);
@@ -76,23 +68,8 @@
             // 
             // numericUpDown1
             // 
-<<<<<<< HEAD
             this.numericUpDown1.Location = new System.Drawing.Point(145, 184);
             this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-=======
-            this.numericUpDown1.Location = new System.Drawing.Point(134, 175);
-            this.numericUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            60,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Minimum = new decimal(new int[] {
-            10,
-            0,
-            0,
-            0});
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(126, 23);
             this.numericUpDown1.TabIndex = 2;
@@ -106,23 +83,8 @@
             // 
             // numericUpDown2
             // 
-<<<<<<< HEAD
             this.numericUpDown2.Location = new System.Drawing.Point(146, 220);
             this.numericUpDown2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-=======
-            this.numericUpDown2.Location = new System.Drawing.Point(136, 211);
-            this.numericUpDown2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.numericUpDown2.Maximum = new decimal(new int[] {
-            60,
-            0,
-            0,
-            0});
-            this.numericUpDown2.Minimum = new decimal(new int[] {
-            5,
-            0,
-            0,
-            0});
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.numericUpDown2.Name = "numericUpDown2";
             this.numericUpDown2.Size = new System.Drawing.Size(126, 23);
             this.numericUpDown2.TabIndex = 3;
@@ -137,11 +99,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< HEAD
             this.label2.Location = new System.Drawing.Point(56, 184);
-=======
-            this.label2.Location = new System.Drawing.Point(46, 175);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(84, 15);
@@ -151,11 +109,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-<<<<<<< HEAD
             this.label3.Location = new System.Drawing.Point(57, 222);
-=======
-            this.label3.Location = new System.Drawing.Point(46, 212);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 15);
@@ -166,11 +120,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(12, 9);
-=======
-            this.label1.Location = new System.Drawing.Point(16, 9);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(283, 128);
@@ -182,11 +132,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-<<<<<<< HEAD
             this.label4.Location = new System.Drawing.Point(105, 253);
-=======
-            this.label4.Location = new System.Drawing.Point(108, 244);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(96, 15);
@@ -197,11 +143,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-<<<<<<< HEAD
             this.label5.Location = new System.Drawing.Point(145, 268);
-=======
-            this.label5.Location = new System.Drawing.Point(148, 259);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(13, 15);
@@ -212,11 +154,7 @@
             // 
             // button3
             // 
-<<<<<<< HEAD
             this.button3.Location = new System.Drawing.Point(208, 142);
-=======
-            this.button3.Location = new System.Drawing.Point(197, 139);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(66, 26);
@@ -234,11 +172,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(306, 292);
-=======
-            this.ClientSize = new System.Drawing.Size(310, 286);
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);

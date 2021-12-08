@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "/+4Tgw9lV0MOanvTVtAaPmR30Heq5dsCa+1Ve5Fp5AOdUqotpIl5Q0j446ATFYRWKlGWtz2qSpQg+274sSD73g==",
   "success": true,
   "projectFilePath": "C:\\Users\\sprin\\Desktop\\TimeFlo+\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
-=======
-  "dgSpecHash": "y82+lz3UB2TyHZZ6h76JaGsuTSaT+1/4xOE1RFYQ0Bfc7wlW6o6B1EmL3/yRLWLr4Czp2TlgkwU7TH27Z3xkVQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
->>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
   "expectedPackageFiles": [],
   "logs": []
 }

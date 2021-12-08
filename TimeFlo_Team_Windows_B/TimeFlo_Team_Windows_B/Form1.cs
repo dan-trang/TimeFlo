@@ -36,8 +36,6 @@ namespace TimeFlo_Team_Windows_B
                 totalSecondsWork = minutes * 60;
                 int breakmin = int.Parse(this.numericUpDown2.Value.ToString());
                 totalSecondsBreak = breakmin * 60;
-                ++workSessions;
-                this.label5.Text = workSessions.ToString();
 
                 this.timer1.Enabled = true;
             }
@@ -92,48 +90,48 @@ namespace TimeFlo_Team_Windows_B
             }
                 if (totalSecondsWork > 0)
                 {
-                totalSecondsWork--;
-                int minutes = totalSecondsWork / 60;
-                int seconds = totalSecondsWork - (minutes * 60);
-                //this.label1.Text = minutes.ToString() + ":" + seconds.ToString();
-                if (minutes < 10 && seconds < 10)
-                    this.label1.Text = "0" + minutes.ToString() + ":0" + seconds.ToString();
-                else if (minutes < 10 && seconds > 10)
-                    this.label1.Text = "0" + minutes.ToString() + ":" + seconds.ToString();
-                else if (minutes > 10 && seconds < 10)
-                    this.label1.Text = minutes.ToString() + ":0" + seconds.ToString();
-                else
-                    this.label1.Text = minutes.ToString() + ":" + seconds.ToString();
+                    totalSecondsWork--;
+                    int minutes = totalSecondsWork / 60;
+                    int seconds = totalSecondsWork - (minutes * 60);
+                    //this.label1.Text = minutes.ToString() + ":" + seconds.ToString();
+                    if (minutes < 10 && seconds < 10)
+                        this.label1.Text = "0" + minutes.ToString() + ":0" + seconds.ToString();
+                    else if (minutes < 10 && seconds > 10)
+                        this.label1.Text = "0" + minutes.ToString() + ":" + seconds.ToString();
+                    else if (minutes > 10 && seconds < 10)
+                        this.label1.Text = minutes.ToString() + ":0" + seconds.ToString();
+                    else
+                        this.label1.Text = minutes.ToString() + ":" + seconds.ToString();
 
-            }
-            else if (totalSecondsWork == 0)
-            {
-                SystemSounds.Beep.Play();
-                totalSecondsWork = -1;
-            }
+                }
+                else if (totalSecondsWork == 0)
+                {
+                    SystemSounds.Beep.Play();
+                    totalSecondsWork = -1;
+                }
                 else if (totalSecondsBreak > 0)
-            {
-                totalSecondsBreak--;
-                int breakmin = totalSecondsBreak / 60;
-                int breaksec = totalSecondsBreak - (breakmin * 60);
-                //this.label1.Text = breakmin.ToString() + ":" + breaksec.ToString();
-                if (breakmin < 10 && breaksec < 10)
-                    this.label1.Text = "0" + breakmin.ToString() + ":0" + breaksec.ToString();
-                else if (breakmin < 10 && breaksec > 10)
-                    this.label1.Text = "0" + breakmin.ToString() + ":" + breaksec.ToString();
-                else if (breakmin > 10 && breaksec < 10)
-                    this.label1.Text = breakmin.ToString() + ":0" + breaksec.ToString();
-                else
-                    this.label1.Text = breakmin.ToString() + ":" + breaksec.ToString();
+                {
+                    totalSecondsBreak--;
+                    int breakmin = totalSecondsBreak / 60;
+                    int breaksec = totalSecondsBreak - (breakmin * 60);
+                    //this.label1.Text = breakmin.ToString() + ":" + breaksec.ToString();
+                    if (breakmin < 10 && breaksec < 10)
+                        this.label1.Text = "0" + breakmin.ToString() + ":0" + breaksec.ToString();
+                    else if (breakmin < 10 && breaksec > 10)
+                        this.label1.Text = "0" + breakmin.ToString() + ":" + breaksec.ToString();
+                    else if (breakmin > 10 && breaksec < 10)
+                        this.label1.Text = breakmin.ToString() + ":0" + breaksec.ToString();
+                    else
+                        this.label1.Text = breakmin.ToString() + ":" + breaksec.ToString();
 
-            }
-            else if (totalSecondsBreak == 0)
-            {
-                SystemSounds.Beep.Play();
-                totalSecondsBreak = -1;
-            }
-            else
-            {
+                }
+                else if (totalSecondsBreak == 0)
+                {
+                    SystemSounds.Beep.Play();
+                    totalSecondsBreak = -1;
+                }
+                else
+                {
                     if (loopflag < 4)
                     {
                         ++loopflag;
@@ -145,15 +143,15 @@ namespace TimeFlo_Team_Windows_B
                 }
                     else
                     {
-                this.timer1.Stop();
+                        this.timer1.Stop();
                         this.button1.Enabled = true;
 
-                paused = false;
+                        paused = false;
 
                         ++workSessions;
                         this.label5.Text = workSessions.ToString();
                     }
-            }
+                }
             
         }
     }
