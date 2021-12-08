@@ -8,11 +8,17 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\sprin\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Daniel\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+>>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\sprin\\Desktop\\TimeFlo+\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
       "projectName": "TimeFlo_Team_Windows_B",
       "projectPath": "C:\\Users\\sprin\\Desktop\\TimeFlo+\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
@@ -21,6 +27,19 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sprin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
+      "projectName": "TimeFlo_Team_Windows_B",
+      "projectPath": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B.csproj",
+      "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Daniel\\Source\\Repos\\timeflo-team-windows-b\\TimeFlo_Team_Windows_B\\TimeFlo_Team_Windows_B\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 22542784612beba9e65daa1f18b4c1c927138429
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
