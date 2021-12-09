@@ -115,8 +115,8 @@ namespace TimeFlo_Team_Windows_B
                     if (loopflag % 4 == 0)
                     {
                         //if current work session is an increment of 4, increase break timer to long break (add 15 minutes).
-                        breakmin += 1;
-                        breaksec += 1;   
+                        breakmin += 10;
+                        breaksec += 10;   
                     }
 
                     //this.label1.Text = breakmin.ToString() + ":" + breaksec.ToString();
